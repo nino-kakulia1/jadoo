@@ -1,0 +1,84 @@
+.footer {
+  padding: 0 186px;
+  display: flex;
+
+  &__facebook {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  &__image {
+    margin-bottom: 19px;
+  }
+
+  &__avatar {
+    width: 207px;
+    margin-right: 85px;
+  }
+
+  &__book {
+    text-align: left;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 124.5%;
+    color: #5e6282;
+  }
+
+  &__section {
+    margin-right: 72px;
+  }
+
+  &__title {
+    margin-bottom: 33px;
+    font-weight: bold;
+    font-size: 21px;
+  }
+
+  &__instagram {
+    width: 45px;
+    height: 45px;
+    background: conic-gradient(
+      from 180deg at 50% 50%,
+      #b8d2f1 0deg,
+      #f289aa 60deg,
+      #c68bf0 106.09deg,
+      #d164da 153.75deg,
+      #c963e8 221.25deg,
+      #bfc2e8 258.75deg,
+      #ffc999 288.75deg,
+      #d0d8c9 315deg,
+      #bad0f1 334.13deg,
+      #ced8cb 358.97deg,
+      rgba(255, 255, 255, 0) 360deg
+    );
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__twitter {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

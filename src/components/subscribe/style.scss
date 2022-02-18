@@ -1,0 +1,63 @@
+.subscribe {
+  margin-left: 135px;
+  padding: 79px 180px;
+  width: 1170px;
+  height: 407px;
+  margin-bottom: 166px;
+  position: relative;
+  background-color: rgba(223, 215, 249, 0.2);
+  border-radius: 20px 129px 20px 20px;
+
+  &__title {
+    font-family: "Poppins", sans-serif;
+    line-height: 54px;
+    font-size: 33px;
+    margin-bottom: 79px;
+    color: #5e6282;
+  }
+
+  &__wraper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__input {
+    align-items: center;
+    display: flex;
+    padding: 25px 35px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    width: 421px;
+    height: 68px;
+  }
+
+  &__icon {
+    margin-right: 14px;
+  }
+
+  &__click {
+    background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+    border-radius: 10px;
+    width: 180px;
+    height: 68px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24px;
+  }
+
+  &__pin {
+    position: absolute;
+    right: 24px;
+    top: -16px;
+    transform: rotate(-4deg);
+  }
+
+  &__email {
+    border: none;
+    outline: none;
+  }
+}

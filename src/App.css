@@ -2,6 +2,41 @@
   text-align: center;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow: hidden;
+  color: #050505;
+  font-family: 'roboto';
+  Overflow-y: scroll;
+  font-size: 15px;
+  background: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #050505;
+  font-size: 16px;
+
+}
+
+ul,
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +67,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

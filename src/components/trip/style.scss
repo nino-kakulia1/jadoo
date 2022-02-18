@@ -1,0 +1,207 @@
+.trip {
+  padding: 0 174px;
+  margin-bottom: 200px;
+  display: flex;
+
+  &__title {
+    font-size: 50px;
+    width: 511px;
+    font-family: "Volkhov", serif;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #14183e;
+  }
+
+  &__subtitle {
+    text-align: left;
+    color: #5e6282;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  &__value {
+    display: flex;
+    align-items: center;
+    width: 375px;
+    margin-bottom: 48px;
+  }
+
+  &__information {
+    margin-right: 33px;
+  }
+
+  &__destination {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #5e6282;
+    font-family: "Poppins", sans-serif;
+  }
+
+  &__description {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #5e6282;
+    font-family: "Poppins", sans-serif;
+  }
+
+  &__icon {
+    margin-right: 30px;
+  }
+}
+
+.order {
+  position: relative;
+  width: 370px;
+  height: 400px;
+  padding: 25px 20px;
+  margin-left: 33px;
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 26px;
+
+  &__image {
+    margin-bottom: 26px;
+  }
+
+  &__apartament {
+    display: flex;
+  }
+
+  &__icons {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 17px;
+  }
+
+  &__icon {
+    margin-right: 12px;
+    background: #f5f5f5;
+    width: 36px;
+    border-radius: 50%;
+    height: 36px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  &__common {
+    position: absolute;
+    transform: translate(10px, 10px);
+  }
+
+  &__title {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 18px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  &__date {
+    display: flex;
+    margin-bottom: 21px;
+    color: #84829a;
+    font-family: "Poppins", sans-serif;
+  }
+
+  &__date-number {
+    margin-right: 16px;
+  }
+}
+
+.apartament {
+  display: flex;
+
+  &__heart {
+    margin-left: auto;
+    object-fit: contain;
+  }
+  &__Involvement {
+    color: #84829a;
+    font-family: "Poppins", sans-serif;
+  }
+
+  &__image {
+    margin-right: 15px;
+  }
+}
+
+.complite {
+  padding: 16px 21px;
+  width: 263px;
+  height: 129px;
+  text-align: left;
+  background-color: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 18px;
+  display: flex;
+  position: absolute;
+  margin-top: 219px;
+  right: 12%;
+
+  &__stambul {
+    margin-right: 12px;
+    width: 50px;
+    height: 50px;
+    clip-path: circle(50% at 50% 50%);
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-family: "Volkhov", serif;
+    margin-right: 12px;
+    color: #84829a;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 14px;
+  }
+
+  &__fill {
+    margin-bottom: 10px;
+  }
+
+  &__all {
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  &__procent {
+    color: #8a79df;
+  }
+}
+.trip {
+  margin-right: 10px;
+
+  &__color {
+    font-size: 14px;
+    color: #8a79df;
+  }
+}
+.Rectangle {
+  width: 156px;
+  height: 5px;
+  background: #f5f5f5;
+  border-radius: 30px;
+  position: relative;
+
+  &__up {
+    height: 5px;
+    width: 73px;
+    background: #8a79df;
+    border-radius: 30px;
+    position: absolute;
+  }
+}

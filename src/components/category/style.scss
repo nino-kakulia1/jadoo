@@ -1,0 +1,46 @@
+.category {
+  padding: 0 154px;
+  margin-bottom: 123px;
+
+  &__subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #5e6282;
+    font-family: "Volkhov", serif;
+  }
+
+  &__title {
+    font-size: 50px;
+    color: #14183e;
+    margin-bottom: 66px;
+    font-weight: bold;
+    font-family: "Volkhov", serif;
+  }
+
+  &__cards {
+    display: flex;
+    align-items: center;
+  }
+
+  &__card {
+    margin-right: 38px;
+  }
+
+  &__icons {
+    margin-bottom: 29px;
+  }
+
+  &__list {
+    font-size: 20px;
+    color: #1e1d4c;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  &__description {
+    font-size: 16px;
+    color: #5e6282;
+    font-family: "Open Sans", sans-serif;
+  }
+}
