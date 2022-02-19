@@ -26,11 +26,18 @@
   }
 
   &__list {
+    text-align: left;
     font-family: "Poppins", sans-serif;
     width: 55px;
     height: 21.83px;
     color: #5e6282;
+    white-space: nowrap;
     margin-bottom: 12px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      opacity: 0.5;
+    }
   }
 
   &__book {

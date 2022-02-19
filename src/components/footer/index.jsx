@@ -20,35 +20,53 @@ function Footer() {
       </div>
       <div className="footer__section">
         <div className="footer__title">Company</div>
-        <li className="footer__list">About</li>
-        <li className="footer__list">Careers</li>
-        <li className="footer__list">Mobile</li>
+        <a href="">
+          <li className="footer__list">About</li>
+        </a>
+        <a href="">
+          <li className="footer__list">Careers</li>
+        </a>
+        <a href="">
+          <li className="footer__list">Mobile</li>
+        </a>
       </div>
 
       <div className="footer__section">
         <div className="footer__title">Company</div>
-        <li className="footer__list">Help/FAQ</li>
-        <li className="footer__list">Press</li>
-        <li className="footer__list">Affilates</li>
+        <a href="">
+          <li className="footer__list">Help/FAQ</li>
+        </a>
+        <a href="">
+          <li className="footer__list">Press</li>
+        </a>
+        <a href="">
+          <li className="footer__list">Affilates</li>
+        </a>
       </div>
       <div className="footer__section">
         <div className="footer__title">More</div>
-        <li className="footer__list">Airlinefees</li>
-        <li className="footer__list">Airline</li>
-        <li className="footer__list">Low fare tips</li>
+        <a href="">
+          <li className="footer__list">Airlinefees</li>
+        </a>
+        <a href="">
+          <li className="footer__list">Airline</li>
+        </a>
+        <a href="">
+          <li className="footer__list">Low fare tips</li>
+        </a>
       </div>
 
       <div className="footer__app">
         <div className="footer__social">
-          <div className="footer__facebook">
+          <a className="footer__facebook" href="">
             <img src={Facebook} className="" alt="" />
-          </div>
-          <div className="footer__instagram">
+          </a>
+          <a className="footer__instagram" href="">
             <img src={Instagram} className="" alt="" />
-          </div>
-          <div className="footer__twitter">
+          </a>
+          <a className="footer__twitter" href="">
             <img src={Twitter} className="" alt="" />
-          </div>
+          </a>
         </div>
         <div className="discover">
           <div className="discover__title">Discover our app</div>

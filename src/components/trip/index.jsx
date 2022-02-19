@@ -74,7 +74,9 @@ function Trip() {
         <div className="apartament">
           <img src={Building} className="apartament__image" alt="" />
           <span className="apartament__Involvement">24 people going</span>
-          <img src={Heart} className="apartament__heart" alt="" />
+          <a className="apartament__heart" href="">
+            <img src={Heart} className="" alt="" />
+          </a>
         </div>
       </div>
       <div className="complite">
