@@ -2,6 +2,10 @@ import Jado from "../../assets/jado.svg";
 import Facebook from "../../assets/facebook.svg";
 import Instagram from "../../assets/instagram.svg";
 import Twitter from "../../assets/twitter.svg";
+import Poligon from "../../assets/poligon.svg";
+import Googleplay from "../../assets/googleplay.svg";
+
+import Apple from "../../assets/apple.png";
 
 import "./style.scss";
 
@@ -17,21 +21,21 @@ function Footer() {
       <div className="footer__section">
         <div className="footer__title">Company</div>
         <li className="footer__list">About</li>
-        <li lassName="footer__list">Careers</li>
-        <li lassName="footer__list">Mobile</li>
+        <li className="footer__list">Careers</li>
+        <li className="footer__list">Mobile</li>
       </div>
 
       <div className="footer__section">
         <div className="footer__title">Company</div>
-        <li lassName="footer__list">About</li>
-        <li lassName="footer__list">Careers</li>
-        <li lassName="footer__list">Mobile</li>
+        <li className="footer__list">Help/FAQ</li>
+        <li className="footer__list">Press</li>
+        <li className="footer__list">Affilates</li>
       </div>
       <div className="footer__section">
         <div className="footer__title">More</div>
-        <li lassName="footer__list">Airlinefees</li>
-        <li lassName="footer__list">Airline</li>
-        <li lassName="footer__list">Low fare tips</li>
+        <li className="footer__list">Airlinefees</li>
+        <li className="footer__list">Airline</li>
+        <li className="footer__list">Low fare tips</li>
       </div>
 
       <div className="footer__app">
@@ -46,8 +50,19 @@ function Footer() {
             <img src={Twitter} className="" alt="" />
           </div>
         </div>
+        <div className="discover">
+          <div className="discover__title">Discover our app</div>
+          <div className="discover__store">
+            <div className="discover__google">
+              <img src={Poligon} className="" alt="" />
+              <img src={Googleplay} className="" alt="" />
+            </div>
+            <img src={Apple} className="" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   );
 }
+
 export default Footer;
