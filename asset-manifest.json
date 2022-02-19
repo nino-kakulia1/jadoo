@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jadoo/static/css/main.a3c90d5e.css",
-    "main.js": "/jadoo/static/js/main.76a159f0.js",
+    "main.css": "/jadoo/static/css/main.01ab7894.css",
+    "main.js": "/jadoo/static/js/main.410509bd.js",
     "static/js/787.ddc04ff2.chunk.js": "/jadoo/static/js/787.ddc04ff2.chunk.js",
     "static/media/rome.jpg": "/jadoo/static/media/rome.371d1f70f6467e2d570f.jpg",
     "static/media/europe.jpg": "/jadoo/static/media/europe.03a65765842c2a6f4827.jpg",
@@ -26,12 +26,12 @@
     "static/media/facebook.svg": "/jadoo/static/media/facebook.c577bb301431c69f7f5a2bfcc49a2942.svg",
     "static/media/message.svg": "/jadoo/static/media/message.42f76d12374642e5e4ae8d212ab82350.svg",
     "static/media/Polygon.svg": "/jadoo/static/media/Polygon.723081e5c36c0c6cc1423ba5186aaca3.svg",
-    "main.a3c90d5e.css.map": "/jadoo/static/css/main.a3c90d5e.css.map",
-    "main.76a159f0.js.map": "/jadoo/static/js/main.76a159f0.js.map",
+    "main.01ab7894.css.map": "/jadoo/static/css/main.01ab7894.css.map",
+    "main.410509bd.js.map": "/jadoo/static/js/main.410509bd.js.map",
     "787.ddc04ff2.chunk.js.map": "/jadoo/static/js/787.ddc04ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3c90d5e.css",
-    "static/js/main.76a159f0.js"
+    "static/css/main.01ab7894.css",
+    "static/js/main.410509bd.js"
   ]
 }
