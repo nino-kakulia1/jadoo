@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jadoo/static/css/main.01ab7894.css",
-    "main.js": "/jadoo/static/js/main.410509bd.js",
+    "main.css": "/jadoo/static/css/main.e71ca948.css",
+    "main.js": "/jadoo/static/js/main.13777d09.js",
     "static/js/787.ddc04ff2.chunk.js": "/jadoo/static/js/787.ddc04ff2.chunk.js",
     "static/media/rome.jpg": "/jadoo/static/media/rome.371d1f70f6467e2d570f.jpg",
     "static/media/europe.jpg": "/jadoo/static/media/europe.03a65765842c2a6f4827.jpg",
@@ -9,11 +9,11 @@
     "static/media/Traveller.png": "/jadoo/static/media/Traveller.20f27ec639dd3520e3ac.png",
     "static/media/greece.png": "/jadoo/static/media/greece.4978ab132dc27110a15a.png",
     "static/media/local.svg": "/jadoo/static/media/local.5c6fadbffeef40700593fd02149baebe.svg",
+    "static/media/plane.png": "/jadoo/static/media/plane.111543ce464dde0d9d84.png",
     "static/media/Play.png": "/jadoo/static/media/Play.2a98762fd9a2d54c9770.png",
     "static/media/portrat.png": "/jadoo/static/media/portrat.be2dc9bb035a5888bacb.png",
     "static/media/Logo.svg": "/jadoo/static/media/Logo.8075c67587dc120e1213a9b71ec6b0e5.svg",
     "static/media/googleplay.svg": "/jadoo/static/media/googleplay.ce58b916689f173660ad9c55d4d07f05.svg",
-    "static/media/plane.svg": "/jadoo/static/media/plane.481bb2fee02c63d974ac1969929db52f.svg",
     "static/media/satelit.svg": "/jadoo/static/media/satelit.9012e4309cbd6ac1e30b17c2b0453c23.svg",
     "static/media/service.svg": "/jadoo/static/media/service.5b236cedde66affa6cd7c6b3831c2134.svg",
     "static/media/jado.svg": "/jadoo/static/media/jado.d26beb9597f98dd7424e314811ac539e.svg",
@@ -26,12 +26,12 @@
     "static/media/facebook.svg": "/jadoo/static/media/facebook.c577bb301431c69f7f5a2bfcc49a2942.svg",
     "static/media/message.svg": "/jadoo/static/media/message.42f76d12374642e5e4ae8d212ab82350.svg",
     "static/media/Polygon.svg": "/jadoo/static/media/Polygon.723081e5c36c0c6cc1423ba5186aaca3.svg",
-    "main.01ab7894.css.map": "/jadoo/static/css/main.01ab7894.css.map",
-    "main.410509bd.js.map": "/jadoo/static/js/main.410509bd.js.map",
+    "main.e71ca948.css.map": "/jadoo/static/css/main.e71ca948.css.map",
+    "main.13777d09.js.map": "/jadoo/static/js/main.13777d09.js.map",
     "787.ddc04ff2.chunk.js.map": "/jadoo/static/js/787.ddc04ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01ab7894.css",
-    "static/js/main.410509bd.js"
+    "static/css/main.e71ca948.css",
+    "static/js/main.13777d09.js"
   ]
 }
