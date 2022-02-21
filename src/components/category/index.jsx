@@ -2,7 +2,7 @@ import "./style.scss";
 import satelit from "../../assets/satelit.svg";
 import local from "../../assets/local.svg";
 import service from "../../assets/service.svg";
-import Plane from "../../assets/plane.svg";
+import Plane from "../../assets/plane.png";
 
 function Category() {
   return (
